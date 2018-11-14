@@ -209,7 +209,6 @@ button.btn:hover:after, a.btn:hover:after {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
 }
 

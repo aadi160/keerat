@@ -1,208 +1,105 @@
-
 <!DOCTYPE html>
-<html lang="en-US">
-  
+<html lang="en" class="no-js">
 
 <head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Grid Effects | Demo 1 | Codrops</title>
+	<meta name="description" content="Effect inspiration for opening an image grid item." />
+	<meta name="keywords" content="image grid, effect, inspiration, css, javascript, animation, masonry" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/style1.css" />
+  <link href="css/plugins.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <script src="js/modernizr-custom.js"></script>
+  <style>
+      .navbar .nav-item a {
+        color: #333 !important;
+    }
+  </style>
+</head>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="discrption" content="">
-    <meta name="keyword" content="">
-
-    <title>Keerat Singh: Traveller, Social Worker, Dog Lover</title>
-
-    <!-- Font Google -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900%7cfamily=Raleway:100,300,400,500,700,900" rel="stylesheet">
-
-    <!-- custom styles (optional) -->
-    <link href="css/plugins.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <style>
-        .navbar .nav-item a {
-            color: #333 !important;
-        }
-        .trek {
-            float: left;
-        }
-        .container .row {
-          margin-top: 37px;
-        }
-        .box-img img {
-          width: 70%;
-        }
-        .box-img {
-          text-align: center;
-        }
-    </style>
-  </head>
-  <body>
-
-    <!-- Loader
-    ================================================== -->
-    <div id="preloader">
-      <div class='loader-ring'>
-        <div class='loader-ring-light'></div>
-        <div class='loader-ring-track'></div>
-      </div>
-    </div>
-    <!-- End Loader
-    ================================================== -->
-
-
-    <!-- Navbar
-    ================================================== -->
-    <nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<a class="navbar-brand" href="#">
-						<h3>Keerat Singh</h3>
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="fas fa-bars"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-hidden">
-							<li class="nav-item">
-								<a class="nav-link " href="/">Home <span class="sr-only">(current)</span></a>
-							</li>
-	
-							<li class="nav-item">
-								<a class="nav-link" href="/trek.html">Treks</a>
-							</li>
-	
-							<li class="nav-item">
-								<a class="nav-link" href="/economic.html">Economics and research</a>
-							</li>
-	
-							<li class="nav-item">
-								<a class="nav-link" href="/initiative.html">Social initiatives</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/passion.html">Passion</a>
-							</li>
-							<li class="nav-item">
-									<a class="nav-link" href="/travel.html">Traveling</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-
-    <!-- Blog
-    ================================================== -->
-    <section id="blog" class="blog section-padding" data-scroll-index='6'>
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-2">
-            </div>
-            <div class="col-lg-4">
-							<div class="content">
-								<p class="entry-title">
-										I started visiting the centre in the 10th grade. My
-										brother and I visited “The Children of the world “ an
-										Orphanage every week and took basic food supplies
-										for these little children.
-
-										We slowly started building a bond with them and it
-										took us few months to win their trust and friendship.
-
-										We tried to teach them basic numbers and simple
-										spoken English and the alphabet.
-
-										Now, most of the children can speak and read in
-										English, solve simple Math sums and all of them
-										know how to be creative with their activities in their
-										spare time.
-
-										These activities include drawing, Just a minute
-										speaking, basic Scrabble and Chess. All of these
-										techniques were taught by my brother and I did this
-										over a span 3 year of time and is one something that
-										we do week in and week out even now.
-								</p>
-							</div>
-            </div>
-            <div class="col-lg-4">
-              <div class="">
-                <div class="box-img" style="text-align: center;">
-                    <img src="img/init2.jpg" alt="">
-                  </div>
-              </div>
-            </div>
+<body class="demo-1">
+    <nav class="navbar navbar-expand-lg nav-scroll">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h3>Keerat Singh</h3>
+          </a>
+          <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fas fa-bars"></span>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-hidden">
+              <li class="nav-item">
+                <a class="nav-link " href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/trek.html">Treks</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/economic.html">Economics and research</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/initiative.html">Social initiatives</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/passion.html">Passion</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/travel.html">Traveling</a>
+              </li>
+            </ul>
           </div>
-          <div class="row">
-						<div class="col-lg-2">
-							</div>
-						<div class="col-lg-4">
-							<div class="">
-								<div class="box-img" style="text-align: center;">
-									<img src="img/init3.jpg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="">
-								<div class="content">
-										<p class="entry-title" style="padding: 0px 19%;">
-												Patang
-	
-												Throw your dreams into space like a kite,
-												you never know what it will bring back, New
-												Life, a new friend or a new love.
-	
-												I saw dreams in the eyes of children who live
-												in “The Children of world” an Orphanage.
-	
-												These children had dreams too. Dreams of a
-												family, dreams of a home, dreams of a school
-												& an education & above all a dream of being
-												Loved
-										</p>
-								</div>
-							</div>
-						</div>
-					</div>
-    </div>
-    </section>
-    <!-- End Blog
-    ================================================== -->
-
-   
-
-    <!-- Footer
-    ================================================== -->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-
-          <div class="logo">
-             
-             <img src="img/logo-2.png" alt="logo" class="logo-1">
-          </div>
-
-          <div class="scoial-icon text-center">
-            <a href="#0"><span><i class="fab fa-facebook-f"></i></span></a>
-            <a href="#0"><span><i class="fab fa-twitter"></i></span></a>
-            <a href="#0"><span><i class="fab fa-linkedin-in"></i></span></a>
-            <a href="#0"><span><i class="fab fa-google-plus-g"></i></span></a>
-          </div>
-
-          <div class="cop">
-            <h6>© 2018 KEERAT SINGH</h6>
-          </div>
-
         </div>
-      </div>
-    </footer>
-    <!-- End Footer
-    ================================================== -->
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.1.1.min.js"></script>
+      </nav>
+	<div class="container">
+      <header class="" style="text-align: center;">
+          <span style="margin-top: 91px;
+          font-weight: initial;
+          font-size: 23px;">My Passion</span>
+        </header>
+		<div class="content">
+			<div class="grid">
+				<div class="grid__item" data-size="1280x853">
+					<button href="img/travel/1.jpg" class="img-wrap"><img src="img/travel/1.jpg" alt="img01" />
+						<div class="description description--grid">Assemblage</div>
+					</button>
+				</div>
+          <div class="grid__item" data-size="958x1280">
+            <button href="img/travel/2.jpg" class="img-wrap"><img src="img/travel/27.jpg" alt="img02" />
+              <div class="description description--grid">Demesne</div>
+            </button>
+          </div>
+          <div class="grid__item" data-size="1280x1280">
+            <button href="img/travel/7.jpg" class="img-wrap"><img src="img/travel/32.jpg" alt="img07" />
+              <div class="description description--grid">Scintilla</div>
+            </button>
+          </div>
+			</div>
+			<!-- /grid -->
+			<div class="preview">
+				<button class="action action--close"><i class="fa fa-times"></i><span class="text-hidden">Close</span></button>
+				<div class="description description--preview"></div>
+			</div>
+			<!-- /preview -->
+		</div>
+		<!-- /content -->
+		<!-- Related demos -->
+	</div>
+	<!-- /container -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/classie.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
@@ -228,6 +125,52 @@
 
     <!-- custom JavaScript -->
     <script src="js/custom.js"></script>
+	<script>
+		(function() {
+			// create SVG circle overlay and append it to the preview element
+			function createCircleOverlay(previewEl) {
+				var dummy = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+				dummy.setAttributeNS(null, 'version', '1.1');
+				dummy.setAttributeNS(null, 'width', '100%');
+				dummy.setAttributeNS(null, 'height', '100%');
+				dummy.setAttributeNS(null, 'class', 'overlay');
+				var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+				var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+				circle.setAttributeNS(null, 'cx', 0);
+				circle.setAttributeNS(null, 'cy', 0);
+				circle.setAttributeNS(null, 'r', Math.sqrt(Math.pow(previewEl.offsetWidth,2) + Math.pow(previewEl.offsetHeight,2)));
+				dummy.appendChild(g);
+				g.appendChild(circle);
+				previewEl.appendChild(dummy);
+			}
+			
+			new GridFx(document.querySelector('.grid'), {
+				onInit : function(instance) {
+					createCircleOverlay(instance.previewEl);
+				},
+				onResize : function(instance) {
+					instance.previewEl.querySelector('svg circle').setAttributeNS(null, 'r', Math.sqrt(Math.pow(instance.previewEl.offsetWidth,2) + Math.pow(instance.previewEl.offsetHeight,2)));
+				},
+				onOpenItem : function(instance, item) {
+					// item's image
+					var gridImg = item.querySelector('img'),
+						gridImgOffset = gridImg.getBoundingClientRect(),
+						win = {width: document.documentElement.clientWidth, height: window.innerHeight},
+						SVGCircleGroupEl = instance.previewEl.querySelector('svg > g'),
+						SVGCircleEl = SVGCircleGroupEl.querySelector('circle');
+						
+					SVGCircleEl.setAttributeNS(null, 'r', Math.sqrt(Math.pow(instance.previewEl.offsetWidth,2) + Math.pow(instance.previewEl.offsetHeight,2)));
+					// set the transform for the SVG g node. This will animate the circle overlay. The origin of the circle depends on the position of the clicked item.
+					if( gridImgOffset.left + gridImg.offsetWidth/2 < win.width/2 ) {
+						SVGCircleGroupEl.setAttributeNS(null, 'transform', 'translate(' + win.width + ', ' + (gridImgOffset.top + gridImg.offsetHeight/2 < win.height/2 ? win.height : 0) + ')');
+					}
+					else {
+						SVGCircleGroupEl.setAttributeNS(null, 'transform', 'translate(0, ' + (gridImgOffset.top + gridImg.offsetHeight/2 < win.height/2 ? win.height : 0) + ')');
+					}
+				}
+			});
+		})();
+	</script>
+</body>
 
-  </body>
 </html>
