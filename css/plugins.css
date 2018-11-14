@@ -17,13 +17,13 @@
 @import url("plugins/bootstrap.min.css");
 
 /* == fontawesome == */
-@import url("plugins/fontawesome-all.min.css");
+/* @import url("plugins/fontawesome-all.min.css"); */
 
 /* == jam icons == */
 @import url("plugins/jam-icons.min.css");
 
 /* == owl carousel == */
-@import url("plugins/owl.carousel.min.css");
+/* @import url("plugins/owl.carousel.min.css"); */
 
 /* == slick  == */
 @import url("plugins/slick.css");
