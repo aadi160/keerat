@@ -54,7 +54,6 @@ body {
 
 p {
   line-height: 1.6;
-  color: #777;
   margin: 0;
 }
 
@@ -1980,3 +1979,4 @@ button.btn:hover:after, a.btn:hover:after {
   line-height: 1;
   text-transform: none;
 }
+
