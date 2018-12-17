@@ -365,7 +365,7 @@ button.btn:hover:after, a.btn:hover:after {
 
 .navbar .nav-item a {
   color: #f1f1f1;
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 500;
 }
 
